@@ -610,20 +610,18 @@ http://www.tooplate.com/view/2106-soft-landing
     #about .section-title,
     #privace .section-title {
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
 
-
-  .privace-thumb {
-    background: #ffffff;
-    border-right: 2px solid #f0f0f0;
-    padding: 20px 40px;
-  }
-
-  .privace-title {
-    padding-bottom: 0px;
-  }
-
+    .privace-title h1 {            
+        padding-bottom: 10px;
+    }
+    .privace-title p {
+        padding-top: 10px;
+        padding-bottom: 100px;
+        color: black;
+        text-transform: uppercase;
+    }
     .privace-body p {
         margin-left: 60px;
         margin-right: 60px;
