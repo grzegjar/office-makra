@@ -625,17 +625,21 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
     .privace-body p {
-        margin:60px;
+        margin-left: 60px;
+        margin-right: 60px;
         font-size: 16px;
     }
     .privace-body h2 {
-        margin: 30px;
+        margin-left: 30px;
+        margin-right: 60px;
     }
     .privace-body h4 {
-        margin: 40px;
+        margin-left: 40px;
+        margin-right: 60px;
     }
     .privace-body ul {
-        margin: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
   /*---------------------------------------
       CONTACT             
