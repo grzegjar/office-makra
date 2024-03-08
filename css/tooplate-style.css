@@ -581,9 +581,12 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .pricing-info p {
-    font-size: 16px;
+    font-size: 14px;
   }
-
+    .pricing-info li {
+        font-size: 14px;
+        padding-bottom:15px;
+    }
   .pricing-bottom {
     position: relative;
   }
