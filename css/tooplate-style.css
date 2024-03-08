@@ -219,11 +219,11 @@ http://www.tooplate.com/view/2106-soft-landing
       MENU              
   -----------------------------------------*/
 
-  .custom-navbar {
+.custom-navbar {
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-  }
+}
 
   .custom-navbar .navbar-brand {
     color: #ffffff;
@@ -543,7 +543,9 @@ http://www.tooplate.com/view/2106-soft-landing
   /*---------------------------------------
       PRICING             
   -----------------------------------------*/
-
+#pricing {
+    background: #ffffff;
+}
   #about .section-title,
   #pricing .section-title {
     text-align: center;
@@ -597,8 +599,44 @@ http://www.tooplate.com/view/2106-soft-landing
     display: inline-block;
   }
 
+/*---------------------------------------
+      PRIVACE
+  -----------------------------------------*/
+/*
+    #privace {
+        background: #ffffff;
+    }
+      */
+    #about .section-title,
+    #privace .section-title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
 
 
+  .privace-thumb {
+    background: #ffffff;
+    border-right: 2px solid #f0f0f0;
+    padding: 20px 40px;
+  }
+
+  .privace-title {
+    padding-bottom: 0px;
+  }
+
+    .privace-body p {
+        margin:60px;
+        font-size: 16px;
+    }
+    .privace-body h2 {
+        margin: 30px;
+    }
+    .privace-body h4 {
+        margin: 40px;
+    }
+    .privace-body ul {
+        margin: 60px;
+    }
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
@@ -608,14 +646,14 @@ http://www.tooplate.com/view/2106-soft-landing
     padding-left: 0;
   }
 
-  #contact-form .form-control {
-    background: transparent;
+#contact-form .form-control {
+    background: #ffffff;
     border: 0;
     border-bottom: 3px solid #f0f0f0;
     border-radius: 0;
     box-shadow: none;
     margin: 10px 0;
-  }
+}
 
   #contact-form .form-control:focus {
     border-bottom-color: #202020;
@@ -643,9 +681,10 @@ http://www.tooplate.com/view/2106-soft-landing
      FOOTER              
   -----------------------------------------*/
 
-  footer {
+footer {
     padding-bottom: 80px;
-  }
+    background: #f0f0f0;
+}
 
   .copyright-text p {
     margin: 5px;
